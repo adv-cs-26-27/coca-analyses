@@ -6,6 +6,10 @@ import matplotlib.pyplot as plt
 
 ### sorting dictionary by values, descending ###
 def sort_dict_by_descending_values(dictionary):
+    """
+    parameter: a dictionary
+    returns: the dictionary, sorted by values in descending order
+    """
     sorted_dict = dict(sorted(dictionary.items(), key=lambda item: item[1], reverse=True))
     return sorted_dict
 

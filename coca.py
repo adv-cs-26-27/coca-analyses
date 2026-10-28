@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 # =================
 
 ### sorting dictionary by values, descending ###
+# this may help you confirm that you have correctly created 
+# the various dictionaries
 def sort_dict_by_descending_values(dictionary):
     """
     parameter: a dictionary
